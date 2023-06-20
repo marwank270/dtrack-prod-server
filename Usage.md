@@ -7,7 +7,7 @@ On the very first connection, you will be asked to change the password.
 
 
 ## Projects, Teams & Members
-Like many administration tools, Dependency-Track is based on projects with unique identifier. A project is a collection of componentsand each projects can have multiples versions. 
+Like many administration tools, Dependency-Track is based on projects with unique identifier. A project is a collection of components and each projects can have multiples versions. 
 
 ![](./img/dependency-track-main.PNG)
 
