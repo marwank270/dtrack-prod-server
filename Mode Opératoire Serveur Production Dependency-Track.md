@@ -713,4 +713,15 @@ $ sudo systemctl restart nginx
 $ sudo systemctl start dtrack
 ```
 
+### Unattended Upgrades
+Unattended upgrades are a great way to keep your server up to date with the latest security patches and bug fixes, and it is very easy to set up.
+
+To toggle on or off unattended upgrades we need the `unattended-upgrades` package if it is not already installed:
+```shell
+$ sudo apt install unattended-upgrades -y
+$ sudo dpkg-reconfigure -plow unattended-upgrades
+```
+![unattended-upgrades](./img/unattended-upgrades.PNG)
+And hit `Enter` on `Yes` to enable Ubuntu's automatic updates.
+
 After that you can go to the server's IP address in your browser and you should see the login page for Dependency-Track, using the default credentials `admin` and `admin` you can login and change the default password, Congratulations! You have successfully installed Dependency-Track on your server.
